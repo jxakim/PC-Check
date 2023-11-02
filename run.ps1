@@ -1,4 +1,4 @@
-[void] [System.Reflection.Assembly]::LoadWithPartialName("System.Drawing")
+﻿[void] [System.Reflection.Assembly]::LoadWithPartialName("System.Drawing")
 [void] [System.Reflection.Assembly]::LoadWithPartialName("System.Windows.Forms")
 
 $BIOSInfo = Get-WmiObject -Class Win32_BIOS
